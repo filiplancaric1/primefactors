@@ -54,6 +54,8 @@ int main(){
     }
 
     primeFactors(a, m);
-
+    printf("\nStlac lubovolny znak pre ukoncenie: ");
+    while (getchar() != '\n');
+    getchar();
     return 0;
 }

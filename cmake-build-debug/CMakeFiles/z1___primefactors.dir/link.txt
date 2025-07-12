@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2024.3.4\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\z1___primefactors.dir/objects.a
+C:\mingw64\bin\ar.exe qc CMakeFiles\z1___primefactors.dir/objects.a @CMakeFiles\z1___primefactors.dir\objects1.rsp
+C:\mingw64\bin\gcc.exe -g -Wl,--whole-archive CMakeFiles\z1___primefactors.dir/objects.a -Wl,--no-whole-archive -o z1___primefactors.exe -Wl,--out-implib,libz1___primefactors.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\z1___primefactors.dir\linkLibs.rsp
